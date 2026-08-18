@@ -1,5 +1,5 @@
 [package]
-name = "{{ prefix_name }}_{{ suffix_name }}_storage_azure"
+name = "{{ project_name }}_storage_azure"
 version.workspace = true
 edition.workspace = true
 
