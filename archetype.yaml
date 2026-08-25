@@ -1,0 +1,14 @@
+---
+description: "Rust Azure Blob Storage — azure_storage_blobs crate for Cargo workspace services"
+summary: >
+  Generates a _storage_azure Cargo crate with azure_storage_blobs, AzureBlobClient,
+  and StorageAzureSettings. Consumed as a library by Rust service archetypes.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "rust", "storage", "azure", "blob"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true

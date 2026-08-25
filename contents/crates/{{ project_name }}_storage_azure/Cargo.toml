@@ -1,0 +1,12 @@
+[package]
+name = "{{ project_name }}_storage_azure"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = "1"
+azure_core = "0.21"
+azure_storage = "0.21"
+azure_storage_blobs = "0.21"
+serde = { version = "1", features = ["derive"] }
+tracing = "0.1"
